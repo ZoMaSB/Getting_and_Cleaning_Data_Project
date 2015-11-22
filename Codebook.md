@@ -93,8 +93,8 @@ For more information about this dataset contact: activityrecognition@smartlab.ws
 
 ###Variables in run_analysis.R
 #### Read activity labels and features from activity_labels.txt and features.txt
--activity_labels
--features
+- activity_labels
+- features
 #### Read test data from subject_test.txt, X_test.txt and y_test.txt
 -subject_test
 -X_test
