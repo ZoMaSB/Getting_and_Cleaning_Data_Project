@@ -95,21 +95,27 @@ For more information about this dataset contact: activityrecognition@smartlab.ws
 #### Read activity labels and features from activity_labels.txt and features.txt
 - activity_labels
 - features
+
 #### Read test data from subject_test.txt, X_test.txt and y_test.txt
--subject_test
--X_test
--y_test
+- subject_test
+- X_test
+- y_test
+
 #### Read train data from subject_train.txt, X_train.txt and y_train.txt
--subject_train
--X_train
--y_train
+- subject_train
+- X_train
+- y_train
+
 #### Bind rows
--subject (binds subject_test, subject_train)
--xcomb (binds X_test and X_train)
--ycomb (binds y_test and y_train)
+- subject (binds subject_test, subject_train)
+- xcomb (binds X_test and X_train)
+- ycomb (binds y_test and y_train)
+
 #### Bind columns
--combdata (binds subject, xcomb and ycomb)
+- combdata (binds subject, xcomb and ycomb)
+
 #### Measurements on the mean and standard deviation for each measurement
--meanSTD
+- meanSTD
+
 #### Independent tidy data set with the average of each variable (based on combdata) for each activity and each subject)
--tidydata 
+- tidydata 
