@@ -34,5 +34,4 @@ labels <- colnames(combdata)[-c(1,563)]
 tidydata <- lapply(X=labels, FUN=function(x) tapply(combdata[[x]], list(combdata$Activity, combdata$Subject), mean))
 names(tidydata)<-labels
 write.table(tidydata, file="tidydata.txt", row.names=F)
-capture.output(tidydata, file="tidydataZM.txt")
 
